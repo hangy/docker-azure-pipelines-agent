@@ -1,5 +1,5 @@
 param (
-    [string]$registry = "czon",
+    [string]$registry = "hangy",
     [string]$name = "azdo-agent"
 )
 

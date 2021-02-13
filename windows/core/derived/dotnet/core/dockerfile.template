@@ -1,7 +1,7 @@
 # escape=`
-FROM czon/azdo-agent:$[AGENT_TAG]
+FROM hangy/azdo-agent:$[AGENT_TAG]
 
-LABEL name="czon/azdo-agent:$[AGENT_TAG]-dotnetcoresdk-$[DOTNET_CORE_SDK_VERSION]" `
+LABEL name="hangy/azdo-agent:$[AGENT_TAG]-dotnetcoresdk-$[DOTNET_CORE_SDK_VERSION]" `
       maintainer="CodeZ.one - Kirsten Kluge" `
       version="0.1.0"
 

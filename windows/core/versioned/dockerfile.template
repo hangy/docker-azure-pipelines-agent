@@ -1,7 +1,7 @@
 # escape=`
-FROM czon/azdo-agent:windows-core-$[WINDOWS_VERSION]
+FROM hangy/azdo-agent:windows-core-$[WINDOWS_VERSION]
 
-LABEL name="czon/azdo-agent:windows-core-$[WINDOWS_VERSION]-$[AGENT_VERSION]" `
+LABEL name="hangy/azdo-agent:windows-core-$[WINDOWS_VERSION]-$[AGENT_VERSION]" `
       maintainer="CodeZ.one - Kirsten Kluge" `
       version="0.0.1"
 
